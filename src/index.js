@@ -5,7 +5,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import {applyPolyfills, defineCustomElements} from 'h8k-components/loader';
 
-const ARTICLES = [
+export const ARTICLES = [
   {
     title: "A message to our customers",
     upvotes: 12,
